@@ -1,3 +1,84 @@
+
+/* first part Header */
+header{
+    background-color: transparent;
+    background-image: url(assets/banner.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: whitesmoke;
+    padding: 0 0 10% 0;
+    font-family: raleway;
+}
+
+.logo{
+    font-size: 5vw;
+    margin: 15px 0;
+    padding: 0%;
+}
+
+.top_bar, .info_bar{
+    margin: 2vw 2vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.info_bar a{
+    margin: 10px 8px;
+    color: whitesmoke;
+    font-size: 1.5vw;
+    text-decoration: none;
+    }
+
+.info_bar a:hover{
+    cursor: pointer;
+}
+
+.info_bar #home{
+    border-bottom: 2px solid rgb(238, 63, 63);
+    padding-bottom: 3px;
+    
+}
+
+hr{
+    width: auto;
+    opacity: 0.2;
+}
+
+.welcomeinfo{
+    text-align: center;
+}
+
+.welcomeinfo h1{
+    font-size: 4vw;
+    margin: 0;
+}
+
+.welcomeinfo hr{
+    width: 25%;
+    opacity: 0.8;
+    border: none;
+    height: 5px;
+    background-color: rgb(238, 63, 63);
+}
+
+.welcomeinfo p{
+    font-size: 2vw;
+}
+
+.welcomeinfo button{
+    background-color: rgb(238, 63, 63);
+    border: none;
+    border-radius: 5px;
+    padding: 20px 40px;
+    text-align: center;
+}
+
+    /* End First part */
+
+
+
 .opciones{
 
     list-style-type: none;
