@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 /* first part Header */
 header{
@@ -80,33 +81,49 @@ hr{
 
 
 .opciones{
+=======
+body{
+    margin:0;
+    padding:0;
+    background-color:lightgray;
+}
 
+header{
+    display: flex;
+    background-color: rgb(28, 28, 70);
+    color: white;
+}
+>>>>>>> 8744e9933e15f1147c064c4c9a66a3bf524df3a0
+
+h1{
+    margin-inline-start: 5%;
+}
+
+.opciones{
     list-style-type: none;
     text-align: right;
-    margin: auto;
+    margin-inline-start: 10%;
+    margin-inline-end: 5%;
     padding: auto;
+    width: 100%;
 } 
 
 .opciones li{
-
-
     display: inline-block;
     font-size: 20px;
     padding: auto;
+    margin-right: 20px;
 }
 
 #servicios{
-
     text-align: center;
     height: 30%;
 }
 
 .sinformativo {
-
     background-color:lightgray;
     width: 100vw;
     height: 25vw;
-    
 }
 
 
@@ -114,66 +131,72 @@ hr{
 
     display: flex;
     justify-content: space-evenly;
-    height: 38%;
+    height: auto;
+    margin-bottom: 5%;
 }
 
 .sdesign {
-
     background-color: white;
     width: 20vw;
+    height: 25vw;
     display: inline-block;
-    
 }
 
 .sdevelopment {
-
     background-color: white;
     width: 20vw;
+    height: 25vw;
     display: inline-block;
-
 }
 
 .smarketing {
-
     background-color: white;
     width: 20vw;
+    height: 25vw;
     display: inline-block;
-
 }
 
 article{
-
     margin: 2% auto;
     width: 95%;
     height: 25%;
-
-}
-
-
-
-.finformativo{
-    text-align: center;
-    
-    
 }
 
 footer{
 
-    display: inline-block;
+    display: flex;
     width: 100%;
-    
+    background-color: rgb(28, 28, 70);
+    color: white;
+}
 
+.sydneyMision{
+    text-align: left;
+    margin-inline-start: 5%;
+    margin-inline-end: 5%;
+    width: 50%;
+}
+
+.opcionesfooter{
+    text-align: left;
+    margin-inline-start: 5%;
+    margin-inline-end: 5%;
+    width:25%;
+}
+
+.opcionesLista{
+    list-style: none;
+}
+
+.finformativo{
+    text-align: center;
 }
 
 .pdesign{
-
     padding: 20px;
-    
 }
 
-
 @media screen and (max-width: 1200px){
-
     .sdesign{
         width: 100%;
         
@@ -191,20 +214,15 @@ footer{
 }
 
 .sservicios{
-
     background-color:lightgray;
     width: 100vw;
-    height: 25vw;
-    
-
+    height: auto;
 }
 
 .titulo{
-
     text-align: center;
 }
 
 .subtitulo{
-
     text-align: center;
 }
